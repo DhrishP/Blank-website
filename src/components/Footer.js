@@ -10,8 +10,8 @@ function footer() {
     <>
    
     <div className='bg-slate-900  w-full'>
-        <div className="grid grid-cols-2 gap-2 md:grid-cols-6">
-          <div className="box-1 text-white space-y-3 md:mt-6">
+        <div className="grid grid-cols-2 gap-2 md:grid-cols-6 ">
+          <div className="box-1 text-white space-y-2 mt-4 md:mt-6">
             <h2 className='font-bold text-xl'>Solutions</h2>
             <ul className='space-y-2'>
               <li>Marketing </li>
@@ -20,7 +20,7 @@ function footer() {
               <li>Cloud</li>
             </ul>
 </div>
-          <div className="box-1 text-white space-y-3 md:mt-6">
+          <div className="box-1 text-white space-y-2 mt-4 md:mt-6">
             <h2 className='font-bold text-xl'>Suport</h2>
             <ul className='space-y-2'>
               <li>Pricing </li>
@@ -29,7 +29,7 @@ function footer() {
               <li>API status</li>
             </ul>
 </div>
-          <div className="box-1 text-white space-y-3 md:mt-6">
+          <div className="box-1 text-white space-y-2 md:mt-6">
             <h2 className='font-bold text-xl'>Company</h2>
             <ul className='space-y-2'>
               <li>About </li>
@@ -38,7 +38,7 @@ function footer() {
               <li>Partners</li>
             </ul>
 </div>
-          <div className="box-1 text-white space-y-3 md:mt-6">
+          <div className="box-1 text-white space-y-2 md:mt-6">
             <h2 className='font-bold text-xl'>Legal</h2>
             <ul className='space-y-2'>
               <li>Privacy </li>
@@ -61,7 +61,7 @@ function footer() {
           <div className='flex space-x-4 justify-evenly'>
           <BsFacebook className='w-7 h-10 cursor-pointer'/>
           <BsInstagram className='w-7 h-10 cursor-pointer'/>
-          <AiFillGithub className='w-7 h-10 cursor-pointer'/>
+          <AiFillGithub  className='w-7 h-10 cursor-pointer'><a href="https://github.com/DhrishP"></a></AiFillGithub>
           <AiOutlineTwitter className='w-8 h-10 cursor-pointer'/>
           <AiFillLinkedin className='w-8 h-10 cursor-pointer'/>
           </div>

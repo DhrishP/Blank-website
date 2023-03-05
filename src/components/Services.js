@@ -22,7 +22,7 @@ function Services() {
             </div>
       </div>
      
-      <div className='relative mx-auto  text-white max-w-[1280px] mt-32 gap-2 grid grid-rows-3 md:grid-cols-3 md:mx-auto md:bottom-[-45px]  '>
+      <div className='relative mx-auto  text-white max-w-[1280px] mt-32 gap-6 grid grid-rows-3 md:grid-cols-3 md:mx-auto md:bottom-[-45px]  '>
       <div className='border rounded-md mx-2 shadow-lg'>
         <div className='bg-white text-black rouded-t-lg  '>
           <div className='bg-blue-600 rounded-lg text-2xl w-16 h-16 flex items-center justify-center relative top-[-15px] left-4' >

@@ -5,7 +5,7 @@ import {ImCross} from 'react-icons/im';
 function Pricing() {
   return (
     <>
-    <div name="pricing" className='w-screen md:h-[60vh] h-screen mt-60 md:mt-0'>
+    <div name="pricing" className='w-screen md:h-[60vh] h-screen mt-80 relative sm:mt-60 md:mt-0'>
         <div className='h-[700px] w-screen bg-slate-900 pt-10  '>
         <div className='text-white space-y-4 '>
             <h1 className='text-2xl text-center font-lg text-blue-300'>Pricing</h1>

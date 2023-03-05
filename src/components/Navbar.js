@@ -28,8 +28,8 @@ function Navbar() {
                              <li className='text-xl font-bold  cursor-pointer hover:text-blue-400   transition-all'><Link to="pricing" smooth={true} offset={-50} duration={500}>Pricing</Link></li>
             </ul>
         </div>
-        <div className="hamburger h-20 w-20  md:hidden">
-         <HiOutlineMenu className='w-10 h-10 relative top-5 left-2 cursor-pointer' onClick={()=>{setlick(!click)}}/>
+        <div className="hamburger h-20 w-20 flex items-center justify-center  md:hidden">
+         <HiOutlineMenu className='w-10 h-10 relative   cursor-pointer' onClick={()=>{setlick(!click)}}/>
         </div>
         <div className="hidden md:flex items-center   ">
         <button className="button px-2 w-24 bg-blue-400 rounded-xl h-10 font-semibold text-md text-white hover:scale-110 hover:text-slate-900 transition ">
