@@ -15,8 +15,8 @@ function App() {
      <Services/>
     <Platform/>
     <Pricing/>
-    <div className='w-screen h-screen  bg-white'> </div>
-    <Footer/>
+    <div className='w-screen h-screen bg-white'> </div>
+    <Footer />
     </div>
   );
 }

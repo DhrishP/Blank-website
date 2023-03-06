@@ -9,7 +9,7 @@ function footer() {
   return (
     <>
    
-    <div className='bg-slate-900 max-mt-96 w-full'>
+    <div className='bg-slate-900 mt-60 md:mt-0  w-full'>
         <div className="grid grid-cols-2 gap-2 md:grid-cols-6 ">
           <div className="box-1 text-white space-y-2 mt-4 md:mt-6">
             <h2 className='font-bold text-xl'>Solutions</h2>
